@@ -1,0 +1,97 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing:  border-box;
+}
+body
+{
+    background-image: url("/dd.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    
+
+}
+.menu-bar {
+    text-align: center;
+    background: black;
+    position: fixed;
+}
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    
+
+}
+.menu-bar ul li {
+    padding: 13px;
+    margin: 10px;
+    width: 150px;
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+.menu-bar ul li:hover
+{
+    background: rgb(87, 87, 122);
+    border-radius: 6px;
+}
+.menu-bar .fa {
+    margin-right: 7px;
+}
+.sub-menu-1 {
+    display: none;
+
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: rgb(87, 87, 122);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    background: transparent;
+    border-radius: 0;
+    border-bottom: 1px solid blueviolet;
+    text-align: left;
+}
+.img-1 {
+    float: center;
+    width: 30px;
+    filter: inherit;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: yellow;
+}  
+.image{
+    float: center;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom:  none ;
+}
+.page-1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 38px;
+    color: blue;
+    padding: 0px;
+    margin: 15px;
+    padding-bottom: 20px;
+}
+.page-1 .fa{
+    margin-right: 10px;
+    color: blue;
+}
+.table-1{
+    border-collapse: 1px;
+}
+
+
